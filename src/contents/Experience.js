@@ -63,10 +63,10 @@ function Experience() {
                     <p>Government document management system</p>
                     <div className="Experience-main">
                         <div className="Experience-main-l">
-                            <img src={User} alt="Admin" className='ExperienceIMGflutter' />
+                            <img src={User} alt="Admin" className='ExperienceIMG' />
                         </div>
                         <div className="Experience-main-r">
-                            <img src={Admin} alt="Admin" className='ExperienceIMGflutter' />
+                            <img src={Admin} alt="Admin" className='ExperienceIMG' />
                         </div>
                     </div>
                 </li>
