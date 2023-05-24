@@ -8,6 +8,7 @@ import About from './contents/About'
 import Education from './contents/Education'
 import Skills from './contents/Skills'
 import Experience from './contents/Experience'
+import Performance from './contents/Performance'
 import Contact from './contents/Contact'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Education" element={<Education />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Experience" element={<Experience />} />
+          <Route path="/Performance" element={<Performance />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>

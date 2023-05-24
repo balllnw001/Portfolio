@@ -10,6 +10,7 @@ function Navbar() {
                 <li><NavLink to="/education" >Education</NavLink></li>
                 <li><NavLink to="/skills" >Skills</NavLink></li>
                 <li><NavLink to="/experience" >Experience</NavLink></li>
+                <li><NavLink to="/performance" >Performance</NavLink></li>
                 <li><NavLink to="/contact" >Contact</NavLink></li>
             </ul>
         </nav>
