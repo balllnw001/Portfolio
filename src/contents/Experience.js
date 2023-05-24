@@ -8,6 +8,8 @@ import OTOP1 from '../img/OTOP1.png'
 import OTOP2 from '../img/OTOP2.png'
 import OTOP3 from '../img/OTOP3.png'
 import OTOP4 from '../img/OTOP4.png'
+import User from '../img/user.png'
+import Admin from '../img/admin.png'
 
 function Experience() {
     return (
@@ -61,8 +63,10 @@ function Experience() {
                     <p>Government document management system</p>
                     <div className="Experience-main">
                         <div className="Experience-main-l">
+                            <img src={User} alt="Admin" className='ExperienceIMGflutter' />
                         </div>
                         <div className="Experience-main-r">
+                            <img src={Admin} alt="Admin" className='ExperienceIMGflutter' />
                         </div>
                     </div>
                 </li>
