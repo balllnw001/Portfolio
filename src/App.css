@@ -1,38 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --forntsize-nav:1.6rem;
+  --typing-font:3rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
+  display: flex;
+  width: 100vw;
+  min-height: 52vw;
+}
+
+nav{
+  padding: 60px 30px 0px 30px;
+  flex: var(--sidebar-flex);
+  background: #333;
+}
+
+nav ul{
+  font-size: var(--forntsize-nav);
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li{
+  margin:40px;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #000;
+  transition: 0.5s;
+  font-size:2rem;
+}
+
+.condiv{
+  padding: 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilepic{
+  border-radius: 50%;
+  width: 400px;
+  margin: 30px;
+}
+
+.social{
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+
+.social i {
+  padding: 0px 20px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+
+.social i:hover{
+  font-size: 2rem;
+  transition: 0.5s;
+  color: #333;
+}
+
+.typingeffect{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+}
+
+.widecard{
+  display:flex;
+  margin: 30px 0px 30px 0px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.widecard:hover{
+  color: #fff;
+  background: #333;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills ul{
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.skills ul li{
+  list-style: none;
+  margin: 30px;
+}
+
+.title-skills{
+  padding-top: 20px;
+}
+
+.ExperienceIMG{
+  display: 100%;
+  width: 100%;
+}
+
+.ExperienceIMGflutter{
+  width: 500px;
+}
+
+.Experience-main{
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Experience-main-l{
+  width: 100%;
+  padding-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Experience-main-r{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtopic-title{
+  margin-top:20px;
 }
